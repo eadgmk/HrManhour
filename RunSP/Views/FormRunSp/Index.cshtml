@@ -1,0 +1,26 @@
+﻿@*@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}*@
+
+@{
+    ViewBag.Title = "Run Stored Procedure";
+}
+
+<h2>Insert To Fill Effective Man Hours Data</h2>
+<form id="form1">
+    <table>
+        <tr>
+            <td><label>From Date</label></td>
+            <td><input id ="fromdate" type="date" placeholder="Enter From Date" name="fromdate" required></td>
+
+        </tr>
+        <tr>
+            <td><label>To Date</label></td>
+            <td><input id="todate" type="date" placeholder="Enter To Date" name="todate" required></td>
+        </tr>
+        <tr>
+            <td><button id="btnsubmit" type="submit" name="btnsubmit">Insert</button></td>
+        </tr>
+
+    </table>
+</form>
